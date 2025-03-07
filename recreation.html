@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Page</title>
+    <!-- Bootstrap Initialize -->
+    
+    <link href="C:\Users\jonhe\Projects\D479_UX_Design\tourism_website\scss\custom.css" rel="stylesheet">
+    <!-- Bootstrap w/ Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  </head>
+  <body class="bg-primary">
+    
+    <!-- Nav Bar, Collapsable with Search Bar and Button -->
+    <nav class="container-md navbar navbar-expand-lg rounded border border-dark border-2 bg-info"> <!-- container-md added to contain and center all other contents -->
+      <div class="container-md">
+        <button class="navbar-toggler" type="button" aria-label="Navigation Toggler" data-bs-toggle="collapse" data-bs-target="#togglerIndex" aria-controls="togglerIndex" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand navbar-right"></a>  <!-- Title or Label for Navbar Brand intentionally left blank -->
+        <div class="collapse navbar-collapse" id="togglerIndex">  <!-- # symbol only required to intialize the ID created as togglerIndex-->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" style="background-color: #dcd4a9de;"  href="recreation.html">Recreation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lodging.html">Lodging</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="food.html">Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="transportation.html">Transportation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faqs.html">FAQs/Contact Us</a>
+            </li>
+          </ul>
+          <div class="row">  <!-- User Login (Non-functional Placeholder) -->
+            <label class="col-md-2 col-form-label col-form-label-sm fw-bold text-decoration-underline"><a style="color: blue;" href="index.html">Login</a></label>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Enter Account Name..." aria-label="Account">
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <div class="container-md bg-info rounded border border-dark border-2" style="padding: 10px; margin-top: 20px; margin-bottom: 20px;">
+      <div class="row g-1">  <!-- Gutter 20% -->
+        <!-- Additional Navbar for Internal Navigation-->
+        <nav class="container-fluid navbar bg-info navbar-expand-lg"> <!-- container added to contain and center all other contents -->
+          <div class="container-md" style="background-color: #dcd4a9de;">
+            <button class="navbar-toggler" type="button" aria-label="Navigation Toggler1" data-bs-toggle="collapse" data-bs-target="#togglerIndex1" aria-controls="togglerIndex1" aria-expanded="false">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand"></a>  <!-- Title or Label for Navbar Brand intentionally left blank -->
+            <div class="collapse navbar-collapse" id="togglerIndex1">  <!-- # symbol only required to intialize the ID created as togglerIndex-->
+              <ul class="navbar-nav d-flex flex-wrap me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#01" style="color:#f77104dc;">Beaches</a>  <!-- Active link emboldens on hover -->
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#02" style="color:#f77104dc;">Pubs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#03" style="color:#f77104dc;">Zipline</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#04" style="color:#f77104dc;">Volcanos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#05" style="color:#f77104dc;">Fishing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#06" style="color:#f77104dc;">Golf</a> 
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#07" style="color:#f77104dc;">Museum</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#08" style="color:#f77104dc;">Arcades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#09" style="color:#f77104dc;">Dancing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#10" style="color:#f77104dc;">Arts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#11" style="color:#f77104dc;">Snorkeling</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#12" style="color:#f77104dc;">Cinema</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>  
+        
+        
+        <div class="col-md-12 align-items-center text-wrap text-center" style="padding: 40px; margin-top: 20px; margin-bottom: 20px;"><h2>WELCOME TO MERRITON LANDING OF YELLOW LEAF BAY</h2>
+          <img src="images/merriton.jpeg" class="img-fluid rounded" alt="palm tree photograph"></img>
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 10px;">Figure 3. Note. From <i>Aerial Shot of Sea, Harbor and City, Waikiki, Honolulu, Hawaii, USA</i> [Photograph], by Cyrill. 2021, Pexels</figcaption>
+        </div>
+
+        <div class="col-md-12 text-wrap text-center" style="padding: 10px;"><p style="margin-left: 10%; margin-right: 10%;">Taniti Island's Merriton Landing offers a plethora of activities and areas to explore.
+          There are several square miles of white sand beaches and crystal blue water, both private and public.  The local history museum is renowned for its legendary artifacts and cultural displays.</p><hr>
+          
+          
+        <p style="margin-left: 10%; margin-right: 10%;">When the sun goes down, the magical nights of Taniti come to life, with many pubs, taverns, bars, nightclubs, dance floors, arcades, and local cinema to enjoy.    
+          From fishing tours to snorkeling, or ziplining in the tropical rainforest, Taniti has nearly limitless potential for all your entertainment needs.  Our world-renowned art museum will leave you speechless.
+          On the north side of Yellow Leaf Bay, join us at Merriton Landing on Taniti Island for the experience of a lifetime.</p><hr>  
+          
+        <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 85px;">Coming Soon: A full 9-hole golf course complete with a country club is planned to be completed by next year.  
+          Registration for club membership is currently open, but spots are limited, so sign up today!</p>
+        </div>
+
+        <div id="01" class="col-md-12 align-items-center text-wrap text-center rounded" style="background-color: #dcd4a9de;"><h2>WHITE SAND BEACHES</h2>
+          <img src="images/beach.jpeg" class="img-fluid rounded" alt="beach photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 4. Note. From <i>Seaside</i> [Photograph], by Wiktor, F. 2017, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">Visit our immaculate white sand beaches, with crystal clear water and many amenities located nearby. 
+          There are many public beaches as well as secluded areas in more remote areas of the island.</p></div>
+        
+        <div id="02" class="col-md-12 align-items-center text-wrap text-center rounded" style="padding: 10px;"><h2>PUBS AND NIGHTLIFE</h2>
+          <img src="images/pub.jpeg" class="img-fluid rounded" alt="pub/tavern photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 5. Note. From <i>Open Air Beach Bar</i> [Photograph], by Park, S. 2023, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">There are plenty of pubs and taverns in Merriton Landing. 
+            The drinking age on Taniti is 18 years old, so make sure you have proper identification, although this isn't strictly enforced everywhere on the island.</p></div>
+
+        <div id="03" class="col-md-12 align-items-center text-wrap text-center rounded" style="background-color: #dcd4a9de;"><h2>RAINFOREST ZIPLINE ADVENTURE</h2>
+          <img src="images/zipline.jpeg" class="img-fluid rounded" alt="zipline in rainforest photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 6. Note. From <i>Woman Wearing Orange Helmet</i> [Photograph], by Mam NC. 2013, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">For thrill seekers with an extreme sense of adventure, come and see our incredible zipline experience.  
+            Located in the heart of the Taniti Rainforest, we utilize the latest and safest equipment to ensure you have the time of your life.  Sign up for a spot today!</p></div>
+
+        <div id="04" class="col-md-12 align-items-center text-wrap text-center rounded" style="padding: 10px;"><h2>TANITI ISLAND VOLCANO</h2>
+          <img src="images/volcano.jpeg" class="img-fluid rounded" alt="volcano photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 7. Note. From <i>Selective Focus Photographed of Green Mountain</i> [Photograph], by Binamira, A. 2017, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">Taniti Volcano is one of our most popular attractions on the island, not only for visitors and sightseers, 
+          but for scientific research as well.  Every year many expeditions and scientific experiments occur around the volcano. The volcano is active, but very low risk for dangerous eruptions.
+          Experience this majestic and powerful force of nature.</p></div>
+
+        <div id="05" class="col-md-12 align-items-center text-wrap text-center rounded" style="background-color: #dcd4a9de;"><h2>FISHING TOURS</h2>
+          <img src="images/fishingtour.jpeg" class="img-fluid rounded" alt="fishing photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 8. Note. From <i>Wooden Building in Harbor</i> [Photograph], by Esrageziyor. 2019, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">If you love fishing or boating, then Taniti Island will be an unforgettable adventure.  Our fishing tours are
+            world-renowned for their value and quality.  Ask about special pricing for groups and families. </p></div>
+
+        <div id="06" class="col-md-12 align-items-center text-wrap text-center rounded" style="padding: 10px;"><h2>TANITI ISLAND GOLF COURSE (COMING SOON)</h2>
+          <img src="images/golf.jpeg" class="img-fluid rounded" alt="golf course photograph">
+           <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 9. Note. From <i>Tourist Resort on Island in Summer</i> [Photograph], by Calin, A. 2022, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">Taniti Island Golf Course and Resort is planned for completion by next year.  Try for par on our fully fledged 9-hole golf course.
+           Memberships are available for sign up today, so don't miss out on this opportunity to be the early bird.  Many different package offerings are available, but spaces are limited.</p></div>
+
+        <div id="07" class="col-md-12 align-items-center text-wrap text-center rounded" style="background-color: #dcd4a9de;"><h2>TANITI ISLAND HISTORY MUSEUM</h2>
+          <img src="images/museum.jpeg" class="img-fluid rounded" alt="history museum photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 10. Note. From <i>White Concrete Building Beside Body of Water</i> [Photograph], by Cagnin, C. 2018, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">Taniti Island History Museum is a gem of the island and cherished greatly by the local population.  It displays much of the
+           history and heritage of Taniti, along with many pieces and sets on loan.  Visit Taniti Island History Museum today and experience the past while cherishing the present.  
+          </p></div>
+        
+        <div id="08" class="col-md-12 align-items-center text-wrap text-center rounded" style="padding: 10px;"><h2>ARCADES</h2>
+          <img src="images/arcade.jpeg" class="img-fluid rounded" alt="arcade photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 11. Note. From <i>Man in Black Jacket and White Pants Standing in Front of Counter</i> [Photograph], by Cottonbro Studio. 2020, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">Arcades may seem like an activity of the past, but on Taniti Island, the arcade scene is alive and well.
+          Get your quarters ready and prepare to be blown away by our state-of-the-art arcade cabinets and the latest technology.  Experience the lights, sounds, and nostalgia of a bygone era,
+          preserved and respected here on Taniti Island.
+          </p></div>
+        
+        <div id="09" class="col-md-12 align-items-center text-wrap text-center rounded" style="background-color: #dcd4a9de;"><h2>NIGHTCLUBS AND DANCING</h2>
+          <img src="images/dance.jpeg" class="img-fluid rounded" alt="nightclub photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 12. Note. From <i>Black and Silver Dj Controller</i> [Photograph], by Mart Production. 2021, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">If you are a night owl, then you won't be disappointed with your stay on Taniti Island.  
+            Most night clubs on the island serve alcohol and stay open later than most bars.  Many are centrally located right here in Merriton Landing, but you can find plenty of smaller
+            clubs on the fringes of the city.  If you can't resist the beat, then get on the dance floor and experience the tropical atmosphere of Taniti.</p></div>
+
+        <div id="10" class="col-md-12 align-items-center text-wrap text-center rounded" style="padding: 10px;"><h2>THE ARTS</h2>
+          <img src="images/arts.jpeg" class="img-fluid rounded" alt="art museum photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 13. Note. From <i>Exhibit Painting Display</i> [Photograph], by Riccardo, F. 2015, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">Our award-winning Art Museum contains some of the most prized paintings on the planet.  Taniti Island Art Center regularly
+            participates in exchanges with other prestigious museums, which enables us to bring you some of the greatest paintings on the planet.  Experience our newest exhibits and displays.  If you are
+            in the area, don't miss out on this opportunity of a lifetime.</p></div>
+        
+        <div id="11" class="col-md-12 align-items-center text-wrap text-center rounded" style="background-color: #dcd4a9de;"><h2>SNORKELING TOURS</h2>
+          <img src="images/snorkel.jpeg" class="img-fluid rounded" alt="snorkeling photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 14. Note. From <i>Man and Woman Snorkeling</i> [Photograph], by Januzzi, J. 2020, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">Want to go for a dive?  Taniti Island has snorkeling tours available at reasonable prices.  Coral reefs and exotic 
+            species of marine life await you in the shallow depths of the island's warm and crystal blue water.  As one of the most popular attractions on the island, this activity draws 
+            thousands of visitors to the island every year. 
+          </p></div>
+
+        <div id="12" class="col-md-12 align-items-center text-wrap text-center rounded" style="padding: 10px;"><h2>MOVIE THEATERS AND CINEMA</h2>
+          <img src="images/cinema.jpeg" class="img-fluid rounded" alt="cinema photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 15. Note. From <i>Paramount Theater Night Street Scene</i> [Photograph], by Cheathem, J. 2016, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">When you are worn out from all the activities and sights to see on the island, visit one of the many cinemas and 
+            local theaters.  Several large cinemas and franchises are centrally located in Merriton Landing, while smaller local theaters exist in suburban areas.  There are plenty
+            of options ranging from the latest releases to independent films and movies of the past.  
+          </p></div>
+        
+      </div>
+    </div>
+
+    <div class="container-md text-center bg-info rounded border border-dark border-2" style="padding: 10px; margin-top: 20px; margin-bottom: 20px;">
+      <div class="row g-2">
+        <div class="col-md-12"><a style="color: blue;" href="faqs.html#08">Contact Us</a></div>
+      </div>
+      <div class="row g-2">
+        <div class="col-md-12">
+          Taniti Island Tourism, LLC
+        </div>
+      <!--  <div class="col-md-12"><img src="images/google.png" class="img-fluid" style="width: min-content;"></img></div>  -->
+      </div>
+    </div>
+
+  </body>
+</html>

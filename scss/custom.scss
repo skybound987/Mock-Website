@@ -1,0 +1,14 @@
+// Override Bootstrap color variables BEFORE importing Bootstrap
+$primary: rgb(196, 189, 151);
+$info: rgb(238, 236, 225);
+$secondary: rgb(232, 76, 34);
+$warning: rgb(219, 116, 42);
+$primary-text-emphasis-light: #2d19ff;
+$emphasis-color-light: #ab4040ae;
+
+p {
+  font-weight: 300;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap"; 
+

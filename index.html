@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Page</title>
+    <!-- Bootstrap Initialize -->
+    
+    <link href="C:\Users\jonhe\Projects\D479_UX_Design\tourism_website\scss\custom.css" rel="stylesheet">
+    <!-- Bootstrap w/ Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  </head>
+  <body class="bg-primary">
+    
+    <!-- Nav Bar, Collapsable with Search Bar and Button -->
+    <nav class="container-md navbar navbar-expand-lg rounded border border-dark border-2 bg-info"> <!-- container-md added to contain and center all other contents -->
+      <div class="container-md">
+        <button class="navbar-toggler" type="button" aria-label="Navigation Toggler" data-bs-toggle="collapse" data-bs-target="#togglerIndex" aria-controls="togglerIndex" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand navbar-right"></a>  <!-- Title or Label for Navbar Brand intentionally left blank -->
+        <div class="collapse navbar-collapse" id="togglerIndex">  <!-- # symbol only required to intialize the ID created as togglerIndex-->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" style="background-color: #dcd4a9de;" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recreation.html">Recreation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lodging.html">Lodging</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="food.html">Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="transportation.html">Transportation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faqs.html">FAQs/Contact Us</a>
+            </li>
+          </ul>
+          <div class="row">  <!-- User Login (Non-functional Placeholder) -->
+            <label class="col-md-2 col-form-label col-form-label-sm fw-bold text-decoration-underline"><a style="color: blue;" href="index.html">Login</a></label>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Enter Account Name..." aria-label="Account">
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+   
+     <!-- Primary Hero Unit and Welcome Banner -->
+    
+    <div class="container-md g-2 hero-unit bg-info border border-dark rounded border-2" style="padding: 10px; margin-top: 20px; margin-bottom: 20px; text-align: center;">  <!-- container-sm enables dynamic resizing -->
+      <div class="row g-2">
+        <div class="col-md-1"><img src="images/logo.png" class="img-fluid" alt="logo" style="width: 120px;"></img></div>
+        <div class="col-md-10"><h1>WELCOME TO THE ISLAND OF TANITI</h1><p style="font-size: 25px;">Greetings and Welcome to the best place on the web for tourism and travel information 
+          for the Island of Taniti!</p></div>
+        
+      </div>
+    </div>
+    
+      
+
+    <!-- Main Content -->
+    <div class="container-md text-center bg-info rounded border border-dark border-2" style="padding: 40px;">
+      <div class="row g-2">  <!-- Gutter 20% -->
+        <img src="images/taniti.jpeg" class="img-fluid rounded" alt="island photograph"></img>
+        <figcaption class="figure-caption fs-9" style="margin-bottom: 65px;">Figure 2. Note. From <i>Maldives Island</i> [Photograph], by Maldives, A. 2015, Pexels</figcaption>
+        <div class="col-md-12 align-items-center text-wrap text-center" style="padding: 20px;">
+          <p>In the heart of the Pacific Ocean lies the small remote island of Taniti.</p><hr>
+          <p>The island is approximately 500 square miles of lush tropical rainforest, wrapped with white sand beaches and crystal blue water.</p><hr>
+          <p>Mountainous areas include an active volcano.</p><hr>
+          <p>The indigenous population of Taniti ranges about 20,000 people and was dominated by fishing and agriculture in the past.</p><hr>
+          <p>Today, Taniti Island's economy relies heavily on tourism, and is one of the most sought out islands on the planet.</p><hr>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-md text-center bg-info rounded border border-dark border-2" style="padding: 10px; margin-top: 20px; margin-bottom: 20px;">
+      <div class="row g-2">
+        <div class="col-md-12"><a style="color: blue;" href="faqs.html#08">Contact Us</a></div>
+      </div>
+      <div class="row g-2">
+        <div class="col-md-12">
+          Taniti Island Tourism, LLC
+        </div>
+      <!--  <div class="col-md-12"><img src="images/google.png" class="img-fluid" style="width: min-content;"></img></div>  -->
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Page</title>
+    <!-- Bootstrap Initialize -->
+    
+    <link href="C:\Users\jonhe\Projects\D479_UX_Design\tourism_website\scss\custom.css" rel="stylesheet">
+    <!-- Bootstrap w/ Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  </head>
+  <body class="bg-primary">
+    
+    <!-- Nav Bar, Collapsable with Search Bar and Button -->
+    <nav class="container-md navbar bg-info navbar-expand-lg rounded border border-dark border-2"> <!-- container-sm added to contain and center all other contents -->
+      <div class="container-md">
+        <button class="navbar-toggler" type="button" aria-label="Navigation Toggler" data-bs-toggle="collapse" data-bs-target="#togglerIndex" aria-controls="togglerIndex" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand"></a>  <!-- Title or Label for Navbar Brand intentionally left blank -->
+        <div class="collapse navbar-collapse" id="togglerIndex">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recreation.html">Recreation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="lodging.html"  style="background-color: #dcd4a9de;">Lodging</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="food.html">Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="transportation.html">Transportation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faqs.html">FAQs/Contact Us</a>
+            </li>
+          </ul>
+          <div class="row">  <!-- User Login (Non-functional Placeholder) -->
+            <label class="col-md-2 col-form-label col-form-label-sm fw-bold text-decoration-underline"><a style="color: blue;" href="index.html">Login</a></label>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Enter Account Name..." aria-label="Account">
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <div class="container-md bg-info rounded border border-dark border-2" style="padding: 10px; margin-top: 20px; margin-bottom: 20px;">
+      <div class="row g-1">  <!-- Gutter 20% -->
+        <!-- Additional Navbar for Internal Navigation-->
+        <nav class="container-fluid navbar bg-info navbar-expand-lg"> <!-- container added to contain and center all other contents -->
+          <div class="container-md" style="background-color: #dcd4a9de;">
+            <button class="navbar-toggler" type="button" aria-label="Navigation Toggler1" data-bs-toggle="collapse" data-bs-target="#togglerIndex1" aria-controls="togglerIndex1" aria-expanded="false">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand"></a>  <!-- Title or Label for Navbar Brand intentionally left blank -->
+            <div class="collapse navbar-collapse" id="togglerIndex1">  <!-- # symbol only required to intialize the ID created as togglerIndex-->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#01" style="color:#f77104dc;">Hostels</a>  <!-- Active link emboldens on hover -->
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#02" style="color:#f77104dc;">Hotels</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#03" style="color:#f77104dc;">Bed & Breakfast</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#04" style="color:#f77104dc;">Taniti Four-Star Resort</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>  
+        
+        
+        <div class="col-md align-items-center text-wrap text-center" style="padding: 10px;"><h2>ENJOY THE FINEST LODGING TANITI HAS TO OFFER!</h2>
+          <img src="images/lodging.jpeg" class="img-fluid border rounded" alt="palm tree photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 16. Note. From <i>Palm Trees at Night</i> [Photograph], by Pixabay. 2016, Pexels</figcaption>
+        </div>
+
+        <div class="col-md-12 text-wrap text-center" style="padding: 10px;">
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">Taniti has a wide variety of lodging that ranges from an inexpensive hostel to one large, four-star resort. 
+          There are many small, family-owned hotels and a growing number of bed and breakfasts. All types of lodging are strictly regulated and regularly inspected by the Tanitian government.</p></div>
+
+        <div id="01" class="col-md align-items-center text-wrap text-center rounded" style="background-color: #dcd4a9de;"><h2>Hostels</h2>
+          <img src="images/hostel.jpeg" class="img-fluid border rounded" alt="hostel photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 17. Note. From <i>Man in Blue Denim Jeans Carrying a Backpack Going Inside a Building</i> [Photograph], by Pak, G. 2021, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">Hostels on Taniti Island are the most popular option for youth and those looking to travel on a budget.  Hostels tend 
+            to offer more basic services, and many have group style lodging with bunk beds.  Hostels remain the most affordable option in addition to being the most plentiful, with many small Hostels
+            located all over the city, as well in suburban and more rural areas of the island. 
+          </p></div>
+        
+        <div id="02" class="col-md-12 align-items-center text-wrap text-center rounded" style="padding: 10px;"><h2>Hotels</h2>
+          <img src="images/hotels.jpeg" class="img-fluid border rounded" alt="hotel photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 18. Note. From <i>Vibrant Street Life in Chania, Greece</i> [Photograph], by Andrikopoulou, M. 2024, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">Hotels remain the most popular option for travelers to the island.  Taniti's hotels have a broad price range,
+            enabling travelers to find options within their budget.  The majority of hotels have options for reservations, especially those offering luxury suites or other special services.
+            Contact our travel agency for more information.
+          </p></div>
+        
+        <div id="03" class="col-md align-items-center text-wrap text-center rounded" style="background-color: #dcd4a9de;"><h2>Bed & Breakfast</h2>
+          <img src="images/bedbreakfast.jpeg" class="img-fluid border rounded" alt="bed and breakfast photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 19. Note. From <i>Exterior of an Old Building</i> [Photograph], by Michaux, A. 2024, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;" >Bed and Breakfast options are becoming more and more popular every year on Taniti Island.
+            Most are located on the fringes of the city limits, suburban, and rural areas as well.  Most locations are a cheaper option for travelers looking to budget.
+          </p></div>
+        
+        <div id="04" class="col-md-12 align-items-center text-wrap text-center rounded" style="padding: 10px;"><h2>Taniti Island 4-Star Resort</h2>
+          <img src="images/fourstar.jpeg" class="img-fluid border rounded" alt="island resort photograph">
+          <figcaption class="figure-caption fs-9" style="margin-bottom: 55px;">Figure 20. Note. From <i>People on Beach</i> [Photograph], by Loiterton, J. 2019, Pexels</figcaption>
+          <p style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">The Taniti Island 4-Star Hotel and Resort is the premiere location for luxury and comfort.  
+            Our luxury suites have the greatest views of the island, and all the amenities and services you can imagine.  Make reservations today.
+             </p></div>
+      </div>
+    </div>
+      
+    <div class="container-md text-center bg-info rounded border border-dark border-2" style="padding: 10px; margin-top: 20px; margin-bottom: 20px;">
+      <div class="row g-2">
+        <div class="col-md-12"><a style="color: blue;" href="faqs.html#08">Contact Us</a></div>
+      </div>
+      <div class="row g-2">
+        <div class="col-md-12">
+          Taniti Island Tourism, LLC
+        </div>
+      <!--  <div class="col-md-12"><img src="images/google.png" class="img-fluid" style="width: min-content;"></img></div>  -->
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>
